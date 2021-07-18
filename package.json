@@ -5,7 +5,13 @@
   "repository": "https://github.com/samueloh99/nodejs-chapter1.git",
   "author": "samueloh99 <samuel_oh@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev":"nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
